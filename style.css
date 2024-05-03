@@ -1,0 +1,136 @@
+
+.media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.media img {
+    max-width: 100%; 
+    margin-bottom: 20px; 
+}
+
+.botones button {
+    font-size: 24px; 
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffefe; 
+}
+
+header {
+    background-image: linear-gradient(to right, hsl(0, 100%, 50%), hsl(0, 0%, 0%)); 
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.media img {
+    max-width: 1004px; 
+}
+
+.contacto {
+    background-color: #384455;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.contacto p {
+    margin: 5px 0;
+}
+.tren{
+    width: 50%;
+    height: auto;
+    display: block;
+    max-width: 929px;
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+}
+footer {
+    background-color: #ff0101;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center; 
+}
+footer {
+    background-color: #384455;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center; 
+}
+
+footer {
+    background-color: #384455;
+    color: #ffffff;
+    padding: 20px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.redes-sociales {
+    display: flex;
+}
+
+.redes-sociales a {
+    color: #ffffff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+footer {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 20px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.redes-sociales {
+    display: flex; 
+}
+
+.redes-sociales a {
+    color: #ffffff;
+    font-size: 24px;
+    margin-right: 10px; 
+}
